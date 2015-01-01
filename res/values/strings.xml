@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Edetailing Launcher</string>
+    <string name="md_text_field">Put MD\'s CRS Code here</string>
+    <string name="psr_text_field">Put PSR\'s CRS Code here</string>
+</resources>
