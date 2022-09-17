@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Edetailing Launcher</string>
+    <string name="app_id">Put App ID here</string>
     <string name="md_text_field">Put MD\'s CRS Code here</string>
     <string name="psr_text_field">Put PSR\'s CRS Code here</string>
+    <string name="launch_button">LAUNCH APP</string>
+    <string name="backup_db_button">COPY DB</string>
+    <string name="push_updates_button">TRIGGER SEND UPDATES</string>
+    <string name="pull_updates_button">TRIGGER GET UPDATES</string>
 </resources>

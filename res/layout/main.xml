@@ -4,6 +4,12 @@
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   >
+
+  <EditText
+      android:id="@+id/app_id"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/app_id" />
   <EditText android:id="@+id/psr_crs_code"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -14,10 +20,48 @@
     android:layout_height="wrap_content"
     android:hint="@string/md_text_field"
     />
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      >
+    <CheckBox
+        android:id="@+id/send_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send empty file" />
+    <CheckBox
+        android:id="@+id/send_wrong_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send wrong filename" />
+  </LinearLayout>
+
   <Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="LAUNCH E-DETAILING"
-    android:onClick="launch_app" />
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="launchApp"
+      android:text="@string/launch_button" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="backupDB"
+      android:text="@string/backup_db_button" />
+
+  <!--
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchGetUpdates"
+        android:text="@string/pull_updates_button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchSendUpdates"
+        android:text="@string/push_updates_button" />
+   -->
 </LinearLayout>
 
